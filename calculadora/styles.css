@@ -1,0 +1,20 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="text"] {
+    grid-column: 1 / span 4;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: right;
+}
+
+button {
+    padding: 10px;
+}
